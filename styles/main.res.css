@@ -1,0 +1,32 @@
+@media screen and (min-width: 576px) {
+  .desktop-bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: fill;
+    background-color: var(--pale-blue);
+    height: 100vh;
+    max-width: 100%;
+  }
+  .mobile-bg {
+    display: none;
+  }
+  /* order content */
+  .order-content {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    color: var(--desaturated-blue);
+    max-width: 320px;
+  }
+  .order-title {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .order-text {
+    max-width: 100%;
+  }
+  .product-plan {
+    max-width: 320px;
+  }
+}
